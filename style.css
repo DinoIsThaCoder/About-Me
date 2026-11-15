@@ -39,7 +39,6 @@ body {
   margin-bottom: 1.5rem;
 }
 
-
 .bio-intro h1 {
   font-size: 2rem;
   line-height: 1.2;
@@ -62,11 +61,22 @@ h2 {
   color: #374151;
 }
 
-.bio-skills {
-  margin: 1.5rem 0;
+/* Divider between sections */
+.divider {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 1.75rem 0;
 }
 
-.skillslist {
+/* Shared pill style for certs and skills */
+.pill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pill-list li {
   background: #eff6ff;
   color: var(--accent);
   padding: 0.35rem 0.85rem;
@@ -80,6 +90,10 @@ h2 {
   gap: 0.75rem;
   margin-top: 2rem;
   flex-wrap: wrap;
+}
+
+.bio-links p {
+  width: 100%;
 }
 
 .btn {
@@ -114,7 +128,7 @@ h2 {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .bio-container {
     padding: 1.5rem;
   }
