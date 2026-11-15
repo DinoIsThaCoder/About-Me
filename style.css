@@ -21,7 +21,7 @@ body {
   padding: 2rem 1rem;
 }
 
-.bio-container {
+.biocontainer {
   max-width: 700px;
   margin: 0 auto;
   background: var(--card-bg);
@@ -30,7 +30,7 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
-.bio-header {
+.bioheader {
   display: flex;
   align-items: center;
   gap: 1.5rem;
@@ -39,7 +39,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.bio-intro h1 {
+.biointro h1 {
   font-size: 2rem;
   line-height: 1.2;
 }
@@ -56,7 +56,7 @@ h2 {
   color: var(--text-main);
 }
 
-.bio-about p {
+.bioabout p {
   margin-bottom: 1rem;
   color: #374151;
 }
@@ -69,14 +69,14 @@ h2 {
 }
 
 /* Shared pill style for certs and skills */
-.pill-list {
+.pilllist {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
-.pill-list li {
+.pilllist li {
   background: #eff6ff;
   color: var(--accent);
   padding: 0.35rem 0.85rem;
@@ -85,14 +85,14 @@ h2 {
   font-weight: 500;
 }
 
-.bio-links {
+.biolinks {
   display: flex;
   gap: 0.75rem;
   margin-top: 2rem;
   flex-wrap: wrap;
 }
 
-.bio-links p {
+.biolinks p {
   width: 100%;
 }
 
@@ -124,12 +124,12 @@ h2 {
 }
 
 @media (max-width: 600px) {
-  .bio-header {
+  .bioheader {
     flex-direction: column;
     text-align: center;
   }
 
-  .bio-container {
+  .biocontainer {
     padding: 1.5rem;
   }
 }
